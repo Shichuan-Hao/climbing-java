@@ -5,10 +5,15 @@
   <groupId>cn.byteswalk.cj</groupId>
   <artifactId>climbing-java</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>climbing-java</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>new-feature</module>
+    <module>faq-docs</module>
+    <module>zuo-you-hu-bo</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,4 +27,5 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
 </project>
